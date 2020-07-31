@@ -221,7 +221,7 @@ export default class Tree extends Component {
         </Grid>
         <Snackbar
           open={isTraverseFinish}
-          autoHideDuration={6000}
+          autoHideDuration={3000}
           TransitionComponent = {this.TransitionRight}
           anchorOrigin = {{ vertical: 'top', horizontal: 'right' }}
           onClose={this.handleSnackBarClose}

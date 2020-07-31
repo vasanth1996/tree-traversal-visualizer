@@ -17,7 +17,7 @@ export default function SelectBox(props) {
             onChange = {(e) => handleChange(e)}
             value = {value}
             className = "select-box">
-                <option value = "">None</option>
+                <option value = "">Select</option>
                 {props.children}
             </select>
         </div>
