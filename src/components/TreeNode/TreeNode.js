@@ -135,6 +135,6 @@ export default class TreeNode extends Component {
 TreeNode.defaultProps = {
   active: false,
   node: null,
-  onChildRenderFinish: () => console.log("TREE RENDER FINISHED"),
+  onChildRenderFinish: () => {},
   showActiveArrow : true,
 };

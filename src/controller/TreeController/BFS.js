@@ -10,7 +10,6 @@ export const levelOrder = async (tree,callback,onTraversalFinish) => {
         let node = queue.shift();
         result.push(node);
         let children = node.children;
-        console.log("BFS : ",children);
         if(children[0]){
             queue.push(children[0]);
         }

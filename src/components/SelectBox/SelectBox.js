@@ -26,5 +26,5 @@ export default function SelectBox(props) {
 
 SelectBox.defaultProps = {
     placeholder : "Name",
-    handleChange : (e) => console.log(e),
+    handleChange : (e) => {},
 }
