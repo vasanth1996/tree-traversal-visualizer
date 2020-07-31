@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ba7d4f3b80d9674025b46ffa2c3204d3",
+    "revision": "e525e24ab19f235f035daa9f4b913ede",
     "url": "/tree-traversal-visualizer/index.html"
   },
   {
-    "revision": "2dbb38565096f54b5845",
+    "revision": "56ca067a2573c62179e9",
     "url": "/tree-traversal-visualizer/static/css/main.8f2db000.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/tree-traversal-visualizer/static/js/2.47a2595d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2dbb38565096f54b5845",
-    "url": "/tree-traversal-visualizer/static/js/main.6dab4f01.chunk.js"
+    "revision": "56ca067a2573c62179e9",
+    "url": "/tree-traversal-visualizer/static/js/main.85028254.chunk.js"
   },
   {
     "revision": "17e99bb2da771a4543f2",
