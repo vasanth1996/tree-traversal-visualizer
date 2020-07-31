@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/tree-traversal-visualizer/precache-manifest.07eef2b647d7b0ca9dd2b0bca07f6b23.js"
+  "/tree-traversal-visualizer/precache-manifest.2b91e7a109f91b1cd1f644b63e216fd6.js"
 );
 
 self.addEventListener('message', (event) => {
