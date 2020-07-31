@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/tree-traversal-visualizer/static/css/main.8f2db000.chunk.css",
+    "main.js": "/tree-traversal-visualizer/static/js/main.0a241327.chunk.js",
+    "main.js.map": "/tree-traversal-visualizer/static/js/main.0a241327.chunk.js.map",
+    "runtime-main.js": "/tree-traversal-visualizer/static/js/runtime-main.421c30b4.js",
+    "runtime-main.js.map": "/tree-traversal-visualizer/static/js/runtime-main.421c30b4.js.map",
+    "static/js/2.d28a1f2e.chunk.js": "/tree-traversal-visualizer/static/js/2.d28a1f2e.chunk.js",
+    "static/js/2.d28a1f2e.chunk.js.map": "/tree-traversal-visualizer/static/js/2.d28a1f2e.chunk.js.map",
+    "index.html": "/tree-traversal-visualizer/index.html",
+    "precache-manifest.39a25f3486733d585b06199475e59f45.js": "/tree-traversal-visualizer/precache-manifest.39a25f3486733d585b06199475e59f45.js",
+    "service-worker.js": "/tree-traversal-visualizer/service-worker.js",
+    "static/css/main.8f2db000.chunk.css.map": "/tree-traversal-visualizer/static/css/main.8f2db000.chunk.css.map",
+    "static/js/2.d28a1f2e.chunk.js.LICENSE.txt": "/tree-traversal-visualizer/static/js/2.d28a1f2e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.421c30b4.js",
+    "static/js/2.d28a1f2e.chunk.js",
+    "static/css/main.8f2db000.chunk.css",
+    "static/js/main.0a241327.chunk.js"
+  ]
+}
