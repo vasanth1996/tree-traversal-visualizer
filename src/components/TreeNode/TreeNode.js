@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import ArrowDownwardIcon from "@material-ui/icons/ArrowDownward";
+import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
 // Styles
 import "./treeNodeStyle.css";
 import { Line } from "react-lineto";
@@ -18,13 +19,14 @@ export default class TreeNode extends Component {
 
   //Initializing state values with incoming props
   static getDerivedStateFromProps = (props) => {
-    const { node, active } = props;
+    const { node, active,arrowDirection } = props;
     if (!node) return null;
     return {
       id: node.id,
       name: node.name,
       children: node.children,
       active: active,
+      arrowDirection
     };
   };
 
@@ -40,12 +42,13 @@ export default class TreeNode extends Component {
 
   // Render children Nodes
   renderChildren = () => {
-    const { children, active } = this.state;
+    const { children, active,arrowDirection } = this.state;
     return children.map((node) => (
       <TreeNode
         active={active}
         key={node.id}
         node={node}
+        arrowDirection = {arrowDirection}
         onChildRenderFinish={this.onChildRenderFinish}
       />
     ));
@@ -93,10 +96,14 @@ export default class TreeNode extends Component {
   };
 
   renderActiveArrow = () => {
-    const { active, node,showActiveArrow } = this.props;
+    const { active, node,showActiveArrow,arrowDirection } = this.props;
     if (showActiveArrow && active && node && active.id === node.id) {
-      return (<div className="tree-node-arrow">
-        <ArrowDownwardIcon htmlColor="#FE6B8B" />
+      return (<div className={`tree-node-arrow-${arrowDirection}`}>
+        {
+          arrowDirection === "left" ? 
+          <ArrowForwardIcon htmlColor="#FE6B8B" /> : 
+          <ArrowDownwardIcon htmlColor="#FE6B8B" />
+        }
       </div>);
     }
     return null;
@@ -137,4 +144,5 @@ TreeNode.defaultProps = {
   node: null,
   onChildRenderFinish: () => {},
   showActiveArrow : true,
+  arrowDirection : "top"
 };

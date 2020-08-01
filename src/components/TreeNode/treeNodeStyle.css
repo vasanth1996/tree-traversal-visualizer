@@ -31,10 +31,19 @@
     display: flex;
 }
 
-.tree-node-arrow{
+.tree-node-arrow-top{
     position: absolute;
     display: flex;
     justify-content: center;
     top:0;
     margin-top: -8px;
+}
+
+.tree-node-arrow-left{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top:28px;
+    margin-right: 70px;
 }
