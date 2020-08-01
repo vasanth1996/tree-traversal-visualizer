@@ -210,13 +210,12 @@ export default class Tree extends Component {
 
   render() {
     const { tree, active, traversal, isTraverseFinish } = this.state;
-    let arrowDirection = traversal === treeCONST.LEVELORDER ? "left" : "top";
     return (
       <div className="tree-container">
         <Grid container>
           {this.renderOptions()}
           <Grid item xs={12} md={12}>
-            <TreeNode arrowDirection = {arrowDirection} node={tree} active={active} />
+            <TreeNode node={tree} active={active} />
           </Grid>
           {this.renderActiveList()}
         </Grid>
